@@ -1,5 +1,5 @@
-Flask
+Flask~=1.1.2
 Flask-MySQL
 Flask-Cors
-Pandas
-mysql-connector-python
+Pandas~=1.1.1
+mysql-connector-python~=8.0.21

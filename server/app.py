@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request
 from flaskext.mysql import MySQL
 from flask_cors import CORS
 from server.flaskmysql import get_books, new_book, update_book, delete_book
