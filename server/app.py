@@ -12,7 +12,7 @@ DEBUG = True
 # instantiate the app
 
 template_dir = os.path.dirname(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
-template_dir = os.path.join(template_dir, 'flaskVueApp')
+template_dir = os.path.join(template_dir, 'BooksApp')
 template_dir = os.path.join(template_dir, 'client')
 staticf = os.path.join(template_dir, 'dist')
 
