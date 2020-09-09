@@ -216,8 +216,7 @@ export default {
 
   methods: {
     getBooks() {
-      let path = this.$route.path;
-      path = path.concat("/books");
+      let path = window.location.href.concat('/books');
       // const path = 'http://localhost:5000/books';
       axios.get(path)
         .then((res) => {
@@ -229,7 +228,7 @@ export default {
         });
     },
     addBook(payload) {
-      const path = 'http://localhost:5000/books';
+      const path = window.location.href.concat('/books');
       axios.post(path, payload)
         .then(() => {
           this.getBooks();
@@ -244,7 +243,7 @@ export default {
         });
     },
     updateBook(payload, bookID) {
-      const path = `http://localhost:5000/books/${bookID}`;
+      const path = window.location.href.concat(`/books/${bookID}`);
       axios.put(path, payload)
         .then(() => {
           this.getBooks();
@@ -259,7 +258,7 @@ export default {
         });
     },
     removeBook(bookID) {
-      const path = `http://localhost:5000/books/${bookID}`;
+      const path = window.location.href.concat(`/books/${bookID}`);
       axios.delete(path)
         .then(() => {
           this.getBooks();
