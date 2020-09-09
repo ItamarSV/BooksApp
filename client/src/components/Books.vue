@@ -216,7 +216,9 @@ export default {
 
   methods: {
     getBooks() {
-      const path = 'http://localhost:5000/books';
+      let path = this.$route.path;
+      path = path.concat("/books");
+      // const path = 'http://localhost:5000/books';
       axios.get(path)
         .then((res) => {
           this.books = res.data.books;
