@@ -216,7 +216,7 @@ export default {
 
   methods: {
     getBooks() {
-      let path = window.location.href.concat('/books');
+      const path = window.location.href.concat('/books');
       // const path = 'http://localhost:5000/books';
       axios.get(path)
         .then((res) => {

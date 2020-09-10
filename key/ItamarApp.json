@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "itamarapp",
+  "private_key_id": "cfd9ffdb71d09b913a1a17e719805aff644e399a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZfjcdA0jzISI6\nP+YWEcQu0Uya5OpEZjtyUKE0+Tjax9pg+I22TWKG0nbxciCrf1MwKyxqEyU/wjNX\nB1m46/NFQgU1LhF1XrNekkCFFR9VzvVW0IbUbUXdf/FpdmqbjY9d4GJ19FR+goRq\nG22FArJQyZWzhplKnrPiI57jGvaZTB8iyXm6dDZ6u9UOlRVYjT6AkQo/+oq5l197\nxobQLD9a1VWMe9zKVJxpo1K2aRPOzZ7CrdCok867aPkKylvsLa+ikypexARy0KvL\nTZDbaM19L6tRajmwUmcK4b63ygtPSuLxDviPsU7UwrcB4Gqtdq7igZkLtdA15Wjx\ngUj0nxgZAgMBAAECggEAXdzKNUOzKnZcuq3UAydEtv3N5TUw4zcJpcKlZ+K8xjKl\nDN+H7SrFgDD5cycRcWIASVQAlYDQvQz3MjJyZsuxj+y3qaVJlJE7sO9GWAjvHo20\nNPTGk4vbMIYkbiLUTHCR9G4/n+9DvdtfARn4MISi5xmweSt4IYuPT2OXESUUUsCL\nLgcQ+Ofpr2zu8i6npO7262nPldPysE/h2n617BDPiQVQAdKQHcVh4DUp8y71yv23\nfuukkqK3Eht2RMIU2+mEhKsUyakneklxcuY8mpR9Y3SH1H/DqwnNuJCgQI4ZnAj1\nsSjWxV6X3/gE17Uw7nDGOGaoRdipsazAoLu5aYMHXwKBgQDsK6jlNPdqt54Fw0tf\nN/FSpqMVmfXmkOMEsapmoJcVhuL5VAD1Bs1BoPaCUzmJ8GHU7+e77exulJNYFiY/\n5JUyBcupmuI6VK+lfSYO1YGS6UqsewaIY+eF7kvYPfTouGB8cBkMezXyk2WfeWOL\nDZdLJaF3UayGCUnwc7gZqaZvWwKBgQDrwRgEiPSD+VPeiQjOh1W3hdZOCqPiNQ3j\nQ8oN+hMGLT0ChsJGUsTK/bAKEnxjWhHQnXKAi25XjyZA6BxqyxuGlcODBXDBt/yd\nLm/sD0eJ3elbBhfOQU/ZnlKPmKBJweYy1p3TzYINMUIKIFJTuSVxzUJiuAqEDJbQ\ny4z72kjEmwKBgQChdsAD5JB7L4okGn7/XHnqre61qAsMVWZAIU+E1qo0l4G6QIpe\n+wV9pxShyVB/VA8uy849F88bUwzhnlMMP7UY/AlfrXqZsqhblhJc9e+eh0z8Wyf+\nO39ge6jy8HjuWo/sw578f4hEji1eOFmsCeC0Ccg4kWhIQzV/5T2qnegiHQKBgGEY\nCns7qHB+DAOXrm/Ynv3Rehx0F2C/dvPFZH7zIkil8v2KYJKz3ea4KntLd703SCUB\n4zl7szsOcrPCpIl7EuAP6BCa+gBedQSLLn8rH8xw/32EeeNxVKCMqvYG5uTZnaQM\nbb3gYpJqWgdvnlhq5TgEUDX2FCakRKzDWFIVaWjHAoGAKPE5xaVHeIRDeRtyNycn\n8oKvBgQSrADcLVekoL14AA8BSqi6ws1/mcPohLeFdXjwnGZ0TbaVVpMhB9PbaAAn\nVyVTWCRC/J5PzDH/BTRZ5IWITnYQouDfSZ873irhoaJk0UQsJzf1sH9/gNwvmdP6\n0mVH6CLAmcxlsQZhxcHZers=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bookapp@itamarapp.iam.gserviceaccount.com",
+  "client_id": "100845488848159119497",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bookapp%40itamarapp.iam.gserviceaccount.com"
+}

@@ -12,7 +12,7 @@ DEBUG = True
 # instantiate the app
 
 template_dir = os.path.dirname(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
-template_dir = os.path.join(template_dir, 'BooksApp')  # When on local = BooksApp
+template_dir = os.path.join(template_dir, 'BooksApp')
 template_dir = os.path.join(template_dir, 'client')
 staticf = os.path.join(template_dir, 'dist')
 
@@ -30,29 +30,6 @@ conn = mysql.connect()
 BOOKS = get_books(conn)
 
 CORS(app, resources={r'/*': {'origins': '*'}})
-
-
-# json.dumps(data)
-# BOOKS = [
-#     {
-#         'id': uuid.uuid4().hex,
-#         'title': 'On the Road',
-#         'author': 'Jack Kerouac',
-#         'read': True
-#     },
-#     {
-#         'id': uuid.uuid4().hex,
-#         'title': 'Harry Potter and the Philosopher\'s Stone',
-#         'author': 'J. K. Rowling',
-#         'read': False
-#     },
-#     {
-#         'id': uuid.uuid4().hex,
-#         'title': 'Green Eggs and Ham',
-#         'author': 'Dr. Seuss',
-#         'read': True
-#     }
-# ]
 
 
 @app.route('/ping', methods=['GET'])
@@ -122,7 +99,7 @@ def remove_book(book_uuid):
 def get_book_id(book_uuid):
     for book in BOOKS:
         if book['uuid'] == book_uuid:
-            return book['id']
+            return book['uuid']
     return None
 
 
